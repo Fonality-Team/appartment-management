@@ -11,7 +11,7 @@ def main(page: ft.Page):
         return ft.Container(
             content=ft.Column(
                 controls=[
-                    ft.Text("Welcome to Apartment Manager", size=32, weight="bold"),
+                    ft.Text("Welcome to Apartment ", size=32, weight="bold"),
                     ft.TextField(label="Email", icon=ft.icons.EMAIL),
                     ft.TextField(label="Password", password=True, icon=ft.icons.LOCK),
                     ft.ElevatedButton(text="Login", width=200),
